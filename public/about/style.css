@@ -1,0 +1,181 @@
+
+body{
+    background-image: url(https://bibliohound.neocities.org/images/backgrounds/background.webp);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 0 20px -35px;
+}
+
+h1{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Fredericka the Great";
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Fredericka the Great";
+}
+
+h3{
+    text-align: center;
+    font-family: "Fredericka the Great";
+}
+
+h4 {
+    text-align: center;
+    font-family: "Fredericka the Great";
+}
+
+h5 {
+    text-align: center;
+    font-family: "Fredericka the Great";
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    width:30%;
+}
+.main-content{
+    width:70%;
+}
+
+.image-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+    row-gap: 25px;
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+.image-links > a > img{
+    max-width: 50%;
+    max-height: auto;
+}
+
+.board{ 
+    background-image: url(https://bibliohound.neocities.org/images/backgrounds/corkboard.jpg);
+    border-radius: 5px;
+    width: 950px;
+    height: 550px;
+    margin: 0 25px 0 -100px;
+}
+
+.paper{
+    background-color: cornsilk;
+    margin: 0 100px 50px;
+    height: 100%;
+    display: flex;
+}
+
+.image-bar-left{
+    width: 25%;
+}
+
+.about-section{
+    width: 50%;
+    background-color: white;
+    padding: 0 2%;
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.stats > p{
+    text-align: center;
+}
+
+.favorites > p {
+    font-size: 14px;
+}
+
+.image-bar-right{
+    width: 25%;
+}
+
+.image-section-blinkies {
+    padding: 0 8.5%;
+}
+
+.image-section-blinkies > img {
+    width: 150px;
+    height: 20px;
+}
+
+.image-section-buttons {
+    padding: 0 25%;
+}
+
+.image-section-buttons > img {
+    width: 88px;
+    height: 36px;
+}
+
+.image-section-stamps {
+    padding: 0 24%;
+}
+
+.image-section-stamps > img {
+    width: 99px;
+    height: 56px;
+}
+
+.image-section-userboxes {
+    padding: 0 10%;
+}
+
+.image-section-userboxes > img {
+    width: 150px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 412px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 500px;
+        overflow-x: scroll;   
+        margin: 0 -31%;
+    }
+    
+    .image-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0 10px;
+    }
+
+    .image-links > a > img {
+        max-width: 75px;
+        height: auto;
+    }
+
+    .board{
+        max-width: 500px;
+    }
+
+    .paper{
+        overflow-y: scroll;
+    }
+
+    .image-bar-left{
+        visibility: hidden;
+    }
+
+    .image-bar-right{
+        visibility: hidden;
+    }
+
+    .about-section{
+        background-color: cornsilk;
+    }
+}

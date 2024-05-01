@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://bibliohound.neocities.org/images/backgrounds/background.webp);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    width:30%;
+}
+.main-content{
+    width:70%;
+}
+
+.image-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+    row-gap: 25px;
+    max-height: 550px;
+    overflow-y: scroll;
+}
+
+.image-links > a > img{
+    max-width: 50%;
+    max-height: auto;
+}
+
+
+.board{ 
+    background-image: url(https://bibliohound.neocities.org/images/backgrounds/corkboard.jpg);
+    border-radius: 5px;
+    width: 950px;
+    height: 550px;
+    margin: 0 25px 0 -100px;
+}
+
+.paper{
+    background-color: cornsilk;
+    margin: 0 100px 50px;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    font-family: "Fredericka the Great";
+    padding: 10px 0 0 0;
+}
+h2{
+    text-align: center;
+    font-family: "Fredericka the Great"; 
+}
+
+h3{
+    text-align: center;
+    font-family: "Fredericka the Great";
+}
+
+h4{
+    font-family: "Fredericka the Great";
+}
+
+.grid{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: auto;
+    
+}
+
+.item{
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.item > img {
+    width: 175px;
+    height: auto;
+}
+
+.caption{
+    padding: 0 25px;
+}
+
+button{
+    margin: 10px 40% 25px;
+}
+
+@media only screen and (max-width: 412px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 500px;
+        overflow-x: scroll;   
+        margin: 0 -31%;
+    }
+    
+    .image-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0 10px;
+    }
+
+    .image-links > a > img {
+        max-width: 75px;
+        height: auto;
+    }
+
+    .board{
+        max-width: 500px;
+    }
+
+    .paper{
+        overflow-y: scroll;
+    }
+
+    .item > img{
+        width: 100px;
+        height: auto;
+    }
+}
