@@ -1,1 +1,1 @@
-A repository for my website, [bibliohound]([https://www.example.com](https://bibliohound.neocities.org/) on Neocities.
+A repository for my website, [bibliohound](https://bibliohound.neocities.org/) on Neocities.
