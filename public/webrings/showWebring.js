@@ -1,6 +1,6 @@
              
 var nameSelfWebring = "Wildcat";
-var relationshipSelfWebring = "is in a relationship";
+var relationshipSelfWebring = "is in a relationship with";
 var charnameSelfWebring = "Thaddeus";
 var seriesSelfWebring = "Fallout";
 var imgurlSelfWebring = "https://i.ibb.co/p0nCTty/FOTV-Season1-ep3-Thaddeus-ezgif-com-webp-to-jpg-converter.jpg";
