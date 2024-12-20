@@ -90,19 +90,18 @@ h5{
 }
 
 .item{
-    width: 230px;
+    width: 300px;
     background-color: white;
     display: flex;
 }
 
 .item > img {
-    width: 85px;
+    width: 100px;
     height: auto;
 }
 
-.caption{
-    padding: 0 40px;
-    margin: 0 -12px;
+.caption {
+    margin: 10px 50px;
 }
 
 @media only screen and (max-width: 412px) {
