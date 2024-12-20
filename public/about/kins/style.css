@@ -86,14 +86,13 @@ h5{
     grid-template-columns: auto auto auto;
     justify-items: end;
     justify-content: center;
-    gap: 0 10px;
+    gap: 10px 10px;
 }
 
 .item{
     width: 230px;
     background-color: white;
     display: flex;
-    margin: 10px 0;  
 }
 
 .item > img {
