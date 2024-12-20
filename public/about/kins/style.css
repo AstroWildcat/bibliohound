@@ -92,7 +92,8 @@ h5{
 .item{
     width: 230px;
     background-color: white;
-    display: flex;   
+    display: flex;
+    margin: 10px 0;  
 }
 
 .item > img {
