@@ -3,11 +3,14 @@ h1{
     padding: 10px 0 0 0;
 }
 
+.paper{
+    overflow-y: scroll;
+}
+
 .grid{
     display: grid;
     gap: 25px;
     grid-template-columns: auto;
-    
 }
 
 .story-type-description {
