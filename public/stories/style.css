@@ -5,6 +5,7 @@ h1{
 
 .paper{
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .grid{

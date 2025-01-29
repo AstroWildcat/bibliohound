@@ -71,4 +71,5 @@ h5{
     margin: 0 100px 50px;
     height: 100%;
     display: flex;
+    overflow-y: scroll;
 }
