@@ -5,30 +5,11 @@ ul {
 }
 
 h1{
-    text-align: center;
-    font-size: 18px;
-    font-family: "Fredericka the Great";
+    font-size: 18px;;
 }
 
 h2{
-    text-align: center;
     font-size: 15px;
-    font-family: "Fredericka the Great";
-}
-
-h3{
-    text-align: center;
-    font-family: "Fredericka the Great";
-}
-
-h4 {
-    text-align: center;
-    font-family: "Fredericka the Great";
-}
-
-h5 {
-    text-align: center;
-    font-family: "Fredericka the Great";
 }
 
 .image-bar-left{

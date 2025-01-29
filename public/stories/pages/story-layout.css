@@ -1,0 +1,55 @@
+h1{
+    font-size: 25px;
+}
+
+.text {
+    width: 60%;
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.text > main > p{
+    padding: 0 4%;
+}
+
+.side-image{ 
+    width: 40%;
+}
+
+.side-image > img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-auto-columns: auto;
+    gap: 0 10px;
+    padding: 0 10px;
+}
+
+.character  {
+    display: flex;
+    width: 100%;
+    height: 145px;
+}
+
+.image {
+    width: 30%
+}
+
+.image > img {
+    width: 100%;
+    height: auto;
+}
+
+
+.caption{
+    padding: 10px;
+    width: 70%;
+}
+
+.caption > h5 {
+    text-align: left;
+    margin: -10px 0 -10px 0;
+}

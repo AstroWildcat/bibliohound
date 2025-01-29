@@ -1,68 +1,3 @@
-
-body{
-    background-image: url(https://bibliohound.neocities.org/images/backgrounds/background.webp);
-    background-size: cover;
-}
-
-h1{
-    font-family: "Fredericka the Great";
-}
-
-h2{
-    font-family: "Fredericka the Great";
-}
-
-h3{
-    font-family: "Fredericka the Great";
-}
-
-
-h4{
-    font-family: "Fredericka the Great";
-}
-
-h5{
-    font-family: "Fredericka the Great";
-}
-
-.container{
-    display: flex;
-}
-.sidebar{
-    width:30%;
-}
-.main-content{
-    width:70%;
-}
-
-.image-links {
-    display: flex;
-    flex-direction: column;
-    margin: 0 25%;
-    row-gap: 25px;
-    max-height: 550px;
-    overflow-y: scroll;
-}
-
-.image-links > a > img{
-    max-width: 50%;
-    max-height: auto;
-}
-
-.board{ 
-    background-image: url(https://bibliohound.neocities.org/images/backgrounds/corkboard.jpg);
-    border-radius: 5px;
-    width: 950px;
-    height: 550px;
-    margin: 0 25px 0 -100px;
-}
-
-.paper{
-    background-color: cornsilk;
-    margin: -10px 100px auto;
-    height: 100%;
-}
-
 .top-bar-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,19 +32,14 @@ h5{
     width: 90%;
     }
 
-.info-grid > div {
-        margin: 35px -5px;
-        width: 95%;
-    }
-    
-.info-grid > div > h4 {
+    .info-grid > div > h4 {
         margin: -10px auto auto;
     }
     
-.info-grid > div > p {
+    .info-grid > div > p {
         margin: auto auto -10px;
     }
-    
+
 .info-bar-1 { grid-area: 1 / 1 / 3 / 2; }
 .info-bar-2 { grid-area: 1 / 2 / 3 / 3; }
 .info-bar-3 { grid-area: 1 / 3 / 3 / 4; }
