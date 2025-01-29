@@ -12,10 +12,6 @@ h2{
     font-size: 15px;
 }
 
-.paper {
-    display: flex;
-}
-
 .image-bar-left{
     width: 25%;
 }

@@ -30,7 +30,6 @@ h4{
 
 h5{
     font-family: "Fredericka the Great";
-    text-align: center;
 }
 
 .container{
@@ -71,4 +70,5 @@ h5{
     background-color: cornsilk;
     margin: 0 100px 50px;
     height: 100%;
+    display: flex;
 }
