@@ -1,8 +1,5 @@
 
-body{
-    background-image: url(https://bibliohound.neocities.org/images/backgrounds/background.webp);
-    background-size: cover;
-}
+@import url(/main-layout.css);
 
 h1{
     text-align: center;
