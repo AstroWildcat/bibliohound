@@ -1,3 +1,13 @@
+@import url(https://bibliohound.neocities.org/main-layout.css);
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 .grid {
     display: grid;
     grid-auto-columns: auto auto auto;
