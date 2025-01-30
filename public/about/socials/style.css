@@ -1,5 +1,9 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 
+.link-box > hr {
+    border: 1px dashed lightslategray;;
+}
+
 h1{
     text-align: center;
     margin: 0 0 20px 0;
@@ -25,10 +29,6 @@ footer  > p {
 
 .link-box > p {
     padding: 0 5%;
-}
-
-.link-box > hr {
-    border: 2px dotted lightslategray;
 }
 
 
