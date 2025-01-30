@@ -4,12 +4,12 @@ h1{
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 20px;
     padding: 2% 3%;
 }
 
 h3 {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .paper {
@@ -47,6 +47,7 @@ h3 {
     display: flex;
     width: 100%;
     height: 145px;
+    margin: 3% 0;
 }
 
 .image {
@@ -62,9 +63,9 @@ h3 {
 .caption{
     padding: 10px;
     width: 70%;
+    margin: -5% 1%
 }
 
 .caption > h5 {
     text-align: left;
-    margin: -10px 0 -10px 0;
 }
