@@ -39,21 +39,6 @@ hr {
     width:70%;
 }
 
-.image-links {
-    display: flex;
-    flex-direction: column;
-    margin: 0 25%;
-    row-gap: 25px;
-    max-height: 550px;
-    width: 50%;
-    overflow-y: scroll;
-}
-
-.image-links > a > img{
-    max-width: 50%;
-    max-height: auto;
-}
-
 .board{ 
     background-image: url(images/backgrounds/corkboard.jpg);
     border-radius: 5px;

@@ -1,0 +1,14 @@
+.image-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+    row-gap: 25px;
+    max-height: 550px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.image-links > a > img{
+    max-width: 50%;
+    max-height: auto;
+}
