@@ -1,4 +1,4 @@
-@import url('/main-layout.css');
+@import url(https://bibliohound.neocities.org/main-layout.css);
 
 h1{
     text-align: center;
@@ -16,7 +16,11 @@ h3{
 
 footer  > p {
     text-align: center;
-    padding: 5% 0;
+    padding: 1% 0 2.5% 0;
+}
+
+.paper{
+    overflow-y: scroll;
 }
 
 .description > p {
