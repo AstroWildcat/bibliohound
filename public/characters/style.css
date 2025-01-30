@@ -6,7 +6,6 @@ h1{
     display: grid;
     gap: 25px;
     grid-template-columns: auto;
-    
 }
 
 .item{
