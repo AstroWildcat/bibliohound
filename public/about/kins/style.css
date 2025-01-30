@@ -12,11 +12,6 @@ h2{
     font-size: 15px;
 }
 
-.paper{
-    display: grid;
-    overflow-y: scroll;
-}
-
 .description{
     text-align: center;
 }

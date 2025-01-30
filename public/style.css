@@ -14,6 +14,11 @@ h3{
     margin: 3% 0;
 }
 
+.paper {
+    display: flex;
+    overflow-y: hidden;
+}
+
 .text{
     width: 50%;
 }

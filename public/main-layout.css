@@ -69,5 +69,6 @@ hr {
     background-color: cornsilk;
     margin: 0 100px 50px;
     height: 100%;
-    display: flex;
+    overflow-y: scroll;
+    display: grid;
 }
