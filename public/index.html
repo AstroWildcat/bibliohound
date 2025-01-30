@@ -12,42 +12,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script>
+        $(function () {
+            $("#menu").load("https://bibliohound.neocities.org/menu.html");
+        });
+    </script>
 </head>
 
 <body>
     <div class="container">
-
         <div class="sidebar">
             <nav>
-                <div class="image-links">
-                    <a href="/"><img src="https://bibliohound.neocities.org/images/sidebar/home.png" alt="Home"></a>
-                    <a href="/about"><img src="https://bibliohound.neocities.org/images/sidebar/about.png"
-                            alt="About Me"></a>
-                    <a href="/stories"><img src="https://bibliohound.neocities.org/images/sidebar/stories.png"
-                            alt="Stories"></a>
-                    <a href="/characters"><img src="https://bibliohound.neocities.org/images/sidebar/characters.png"
-                            alt="Characters"></a>
-                    <a href="/shrines"><img src="https://bibliohound.neocities.org/images/sidebar/shrines.png"
-                            alt="Shrines"></a>
-                    <a href="/graphics"><img src="https://bibliohound.neocities.org/images/sidebar/graphics.png"
-                            alt="Graphics"></a>
-                    <a href="/entertainment"><img
-                            src="https://bibliohound.neocities.org/images/sidebar/entertainment.png"
-                            alt="Fun Stuff"></a>
-                    <a href="/webrings"><img src="https://bibliohound.neocities.org/images/sidebar/webrings.png"
-                            alt="Webrings"></a>
-                    <a href="/websites"><img src="https://bibliohound.neocities.org/images/sidebar/websites.png"
-                            alt="Other Websites"></a>
-
-                </div>
+                <div id="menu"></div>
             </nav>
         </div>
-
         <main>
             <div class="board">
                 <div class="paper">
                     <div class="side-image">
-                        <img src="images/home/f88e368b25c2d0aefd8b73bcede5f829.jpg" alt="Women are cool." title="Elga Brink via the Fashion Spot">
+                        <img src="images/home/f88e368b25c2d0aefd8b73bcede5f829.jpg" alt="Women are cool."
+                            title="Elga Brink via the Fashion Spot">
                     </div>
                     <div class="text">
                         <h1>Welcome to Wildcat's Website!</h1>
@@ -63,7 +48,8 @@
                             about who I am and my creative work here.</p>
                         <p>Stick around, if you wish.</p>
                         <hr>
-                        <p><b>Warning:</b> This site contains slightly offensive material. There is a high chance of mild
+                        <p><b>Warning:</b> This site contains slightly offensive material. There is a high chance of
+                            mild
                             swearing, violence, and adult themes. It is rated <a
                                 href="http://www.mabsland.com/Adoption.html">Web 14</a>.</p>
                         <p><i>This website was created with Visual Studio Code and deployed via GitHub Actions.</i></p>
