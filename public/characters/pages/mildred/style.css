@@ -1,3 +1,6 @@
+@import url(https://bibliohound.neocities.org/main-layout.css);
+@import url(https://bibliohound.neocities.org/characters/pages/characters-style.css); 
+
 .info-grid > div {
         margin: 25px -10px;
         width: 95%;
