@@ -14,7 +14,7 @@ h2{
 
 hr {
     border: 0;
-    height: 1px;
+    height: 1.25px;
     background-color: gray; /* Adjust color as needed */
     margin: 1% 0; /* Remove default margin */
     width: 100%; /* Ensure it spans the full width */
