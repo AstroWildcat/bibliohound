@@ -10,4 +10,5 @@
 .image-links > a > img{
     max-width: 50%;
     max-height: auto;
+    display: inline-block;
 }
