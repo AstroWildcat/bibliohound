@@ -1,13 +1,18 @@
+@import url(https://bibliohound.neocities.org/main-layout.css);
 
 h1{
     padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.description > p {
+    text-align: center;
 }
 
 .grid{
     display: grid;
     gap: 25px;
     grid-template-columns: auto;
-    
 }
 
 .item{
