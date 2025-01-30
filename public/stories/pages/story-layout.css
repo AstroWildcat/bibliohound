@@ -2,6 +2,10 @@ h1{
     font-size: 25px;
 }
 
+.paper {
+    display: flex;
+}
+
 .text {
     width: 60%;
     overflow-y: scroll;
