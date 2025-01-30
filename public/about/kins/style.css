@@ -1,5 +1,5 @@
 
-@import url(/main-layout.css);
+@import url(https://bibliohound.neocities.org/main-layout.css);
 
 h1{
     text-align: center;
@@ -9,20 +9,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 20px;
-}
-
-h3{
-    text-align: center;
     font-size: 15px;
-}
-
-h4{
-    text-align: center;
-}
-
-h5{
-    text-align: center;
 }
 
 .description{
