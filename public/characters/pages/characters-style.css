@@ -36,6 +36,10 @@
     width: 90%;
     }
 
+    .info-grid > div {
+        width: 95%;
+    } 
+
     .info-grid > div > h4 {
         margin: -10px auto auto;
     }
