@@ -1,9 +1,6 @@
-body{
-    background-image: url(images/backgrounds/background.webp);
-    background-size: cover;
-}
+@import url(characters/style.css);
 
-p {
+p{
     padding: 0 10px;
 }
 
