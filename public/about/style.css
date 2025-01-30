@@ -28,6 +28,10 @@ h5 {
     text-align: center;
 }
 
+.paper{
+    display: flex;
+}
+
 .image-bar-left{
     width: 25%;
 }

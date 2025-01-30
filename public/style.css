@@ -17,6 +17,7 @@ h3{
 .paper {
     display: flex;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .text{
@@ -28,7 +29,7 @@ h3{
 }
 
 .side-image{
-    width: 25%;
+    width: 27%;
 }
 
 .side-image > img {
@@ -37,7 +38,7 @@ h3{
 }
 
 .right-sidebar{
-    width: 25%;
+    width: 27%;
     background-color: #b3987f;
 }
 
