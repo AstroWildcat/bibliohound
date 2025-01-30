@@ -1,10 +1,12 @@
+@import url(https://bibliohound.neocities.org/main-layout.css);
+
 .image-links {
     display: flex;
     flex-direction: column;
-    margin: 0 25%;
     row-gap: 25px;
     max-height: 550px;
     width: 50%;
+    margin: 0 25%;
     overflow-y: scroll;
 }
 
