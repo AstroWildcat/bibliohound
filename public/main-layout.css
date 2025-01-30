@@ -29,7 +29,7 @@ hr {
     width: 100%; /* Ensure it spans the full width */
 }
 
-nav > object {
+nav > iframe {
     width: 100%;
     height: 550px;
     overflow-y: scroll;
