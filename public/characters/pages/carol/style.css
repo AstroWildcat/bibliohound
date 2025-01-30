@@ -1,2 +1,7 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/characters/pages/characters-style.css); 
+
+.info-grid > div {
+    margin: 60% -5px;
+    width: 95%;
+} 
