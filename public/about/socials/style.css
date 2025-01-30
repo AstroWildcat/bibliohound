@@ -1,7 +1,7 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 
 .link-box > hr {
-    border: dashed lightslategray;;
+    border: 1.5px dotted lightslategray;
 }
 
 h1{
