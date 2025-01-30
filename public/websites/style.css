@@ -1,5 +1,9 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 
+h1 {
+    text-align: center;
+}
+
 .grid{
     display: grid;
     gap: 25px;
