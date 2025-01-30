@@ -68,5 +68,6 @@ hr {
     margin: 0 100px 50px;
     height: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
     display: grid;
 }
