@@ -18,4 +18,15 @@
         alt="Webrings"></a>
 <a href="/websites"><img src="https://bibliohound.neocities.org/images/sidebar/websites.png" target="_top"
         alt="Other Websites"></a> 
+        <script>
+                // Force links to navigate the parent window
+                document.addEventListener('DOMContentLoaded', function () {
+                    document.querySelectorAll('a').forEach(link => {
+                        link.addEventListener('click', function (event) {
+                            event.preventDefault(); // Prevent default link behavior
+                            window.parent.location.href = this.href; // Navigate the parent window
+                        });
+                    });
+                });
+            </script>
 </div>
