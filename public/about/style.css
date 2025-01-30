@@ -1,4 +1,4 @@
-@import url(/main-layout.css);
+@import url(https://bibliohound.neocities.org/main-layout.css);
 
 ul {
     list-style-type: none;
@@ -28,43 +28,7 @@ h5 {
     text-align: center;
 }
 
-.container{
-    display: flex;
-}
-.sidebar{
-    width:30%;
-}
-.main-content{
-    width:70%;
-}
-
-.image-links {
-    display: flex;
-    flex-direction: column;
-    margin: 0 25%;
-    row-gap: 25px;
-    max-height: 550px;
-    overflow-y: scroll;
-}
-
-.image-links > a > img{
-    max-width: 50%;
-    max-height: auto;
-}
-
-.board{ 
-    background-image: url(https://bibliohound.neocities.org/images/backgrounds/corkboard.jpg);
-    border-radius: 5px;
-    width: 950px;
-    height: 550px;
-    margin: 0 25px 0 -100px;
-}
-
 .paper{
-    background-color: cornsilk;
-    margin: 0 100px 50px;
-    height: 100%;
-    display: flex;
     overflow-y: scroll;
 }
 
