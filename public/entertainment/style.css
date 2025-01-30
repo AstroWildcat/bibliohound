@@ -1,13 +1,22 @@
+@import url(https://bibliohound.neocities.org/main-layout.css);
+
 h1 {
-    padding: 3% 0 1%;
+    padding: 1% 0 1%;
+    text-align: center;
+    width: 100%;
 }
+
+p {
+    text-align: center;
+    width: 100%;
+}
+
 
 .grid {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 100px 100px 100px;
     grid-template-rows: 300px;
     grid-column-gap: 25px;
-    column-gap: 25px;
+    column-gap: 225px;
     padding: 2.5% 5%;
-    
 }
