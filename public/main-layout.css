@@ -63,7 +63,7 @@ nav > iframe {
     display: grid;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (min-width : 320px) and (max-width : 768px){
     .container {
         display: flex;
         flex-direction: column;
