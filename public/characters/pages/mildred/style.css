@@ -4,17 +4,12 @@
 @media screen and (max-device-width: 812px) {
 
     .info-grid {
-        padding: 0 44%;
+        padding: 0 90%;
 } 
     .info-grid > div {
         margin: 15px 0;
 } 
-    
-    hr {
-        margin: 15% 0;
-    }
-    
-    .bottom-bar-info{
-        margin: -12% 0;
+    .bottom-bar-info>p {
+        padding: 0 20px 0 0;
     }
 }
