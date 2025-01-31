@@ -155,11 +155,11 @@
     }
 
     hr {
-        margin: 25% 0;
+        margin: 10% 0;
     }
 
     .bottom-bar-info {
-        margin: -20% 0;
+        margin: -6% 0;
         width: 90%;
         overflow-y: scroll;
         overflow-x: hidden;
