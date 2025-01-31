@@ -46,36 +46,6 @@ button{
 }
 
 @media only screen and (max-width: 412px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 500px;
-        overflow-x: scroll;   
-        margin: 0 -31%;
-    }
-    
-    .image-links {
-        display: flex;
-        flex-direction: row;
-        gap: 0 10px;
-    }
-
-    .image-links > a > img {
-        max-width: 75px;
-        height: auto;
-    }
-
-    .board{
-        max-width: 500px;
-    }
-
-    .paper{
-        overflow-y: scroll;
-    }
-
     .item > img{
         width: 100px;
         height: auto;
