@@ -72,7 +72,7 @@ footer{
     font-size: 14px;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 768px){
+@media only screen and (min-width : 768px) {
 
     .text {
         margin: 0 90px;
