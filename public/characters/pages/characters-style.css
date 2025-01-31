@@ -86,7 +86,7 @@
     padding: 10px 20px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 812px) {
 
     .top-bar-info {
         display: grid;
