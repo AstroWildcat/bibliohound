@@ -108,7 +108,7 @@
     .icon>img {
         width: 90px;
         height: auto;
-        margin: 10px 75%
+        margin: 10px 50%
     }
 
     .basic-info {
@@ -121,7 +121,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 5px;
-        width: 200%;
+        width: 150%;
         height: 25%;
         overflow-y: scroll;
     }
