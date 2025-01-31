@@ -106,9 +106,9 @@
     }
 
     .icon>img {
-        width: 30vw;
+        width: 110px;
         height: auto;
-        margin: 10px 50%
+        margin: 10px 65%
     }
 
     .basic-info {
@@ -121,7 +121,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 5px;
-        width: 190%;
+        width: 200%;
         height: 25%;
         overflow-y: scroll;
     }
