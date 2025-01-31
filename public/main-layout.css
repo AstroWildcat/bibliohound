@@ -24,7 +24,7 @@ h5{
 }
 
 hr {
-    border: 1.25px lightslategray;
+    border: 1.25 lightslategray;
     margin: 1% 0; /* Remove default margin */
     width: 100%; /* Ensure it spans the full width */
 }
