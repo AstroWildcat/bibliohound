@@ -46,8 +46,17 @@ button{
 }
 
 @media only screen and (max-device-width: 812px) {
+    
+    .item{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    padding: 0 0 10% 0;
+}
+    
     .item > img{
-        width: 100px;
+        width: 100%;
         height: auto;
     }
 }
