@@ -166,7 +166,7 @@
     }
 
     .bottom-bar-info > p {
-        text-wrap: wrap;
+        text-wrap: balance;
     } 
 
 }
