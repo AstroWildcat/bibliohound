@@ -39,25 +39,26 @@ nav > iframe {
     display: flex;
 }
 .sidebar{
-    width:30%;
+    width:25%;
 }
 
 .main-content{
-    width:70%;
+    width:75%;
 }
 
 .board{ 
     background-image: url(images/backgrounds/corkboard.jpg);
     border-radius: 5px;
-    width: 950px;
+    width: 1020px;
     height: 550px;
     margin: 0 25px 0 -100px;
 }
 
 .paper{
     background-color: cornsilk;
-    margin: 0 100px 50px;
+    margin: 0 50px 50px;
     height: 100%;
+    width: 90%;
     overflow-y: scroll;
     overflow-x: hidden;
     display: grid;
