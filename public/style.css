@@ -73,7 +73,6 @@ footer{
 }
 
 @media only screen and (max-width: 320px) {
-
     .text {
         margin: 0 90px;
         overflow-y: scroll;
