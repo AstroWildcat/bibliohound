@@ -30,18 +30,20 @@ h5 {
 
 .paper{
     display: flex;
+    align-items: stretch;
 }
 
-.image-bar-left{
+.image-bar-left,
+.image-bar-right{
     width: 25%;
 }
 
 .about-section{
-    width: 50%;
+    width: 50vw;
     background-color: white;
     padding: 0 2%;
-    height: 550px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .stats > p{
@@ -52,12 +54,8 @@ h5 {
     font-size: 14px;
 }
 
-.image-bar-right{
-    width: 25%;
-}
-
 .image-section-blinkies {
-    padding: 0 8.5%;
+    padding: 0 12%;
 }
 
 .image-section-blinkies > img {
@@ -66,7 +64,7 @@ h5 {
 }
 
 .image-section-buttons {
-    padding: 0 25%;
+    padding: 0 27%;
 }
 
 .image-section-buttons > img {
@@ -84,7 +82,7 @@ h5 {
 }
 
 .image-section-userboxes {
-    padding: 0 10%;
+    padding: 0 13%;
 }
 
 .image-section-userboxes > img {
