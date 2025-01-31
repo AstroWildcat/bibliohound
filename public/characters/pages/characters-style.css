@@ -163,10 +163,12 @@
         width: 90%;
         overflow-y: scroll;
         overflow-x: hidden;
+        display: inline-block;
     }
 
     .bottom-bar-info > p {
-        text-wrap: balance;
+        text-align: justify;
+        font-size: 1vw;
     } 
 
 }
