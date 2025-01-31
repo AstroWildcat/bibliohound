@@ -47,6 +47,10 @@ button{
 
 @media only screen and (max-device-width: 812px) {
     
+    button{
+        margin: 10px 0 10px 0;
+    }
+
     .item{
     width: 100%;
     background-color: white;
