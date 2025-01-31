@@ -1,8 +1,7 @@
 .image-links {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    width: 50%;
+    flex-direction: column !important;
+    row-gap: 25px !important; 
+    width: 50% !important;
     margin: 0 25%;
     overflow-y: scroll;
 }
