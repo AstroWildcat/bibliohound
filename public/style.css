@@ -25,7 +25,7 @@ hr{
 }
 
 .text{
-    width: 50%;
+    width: 60vw;
 }
 
 .text > p{
@@ -33,7 +33,7 @@ hr{
 }
 
 .side-image{
-    width: 26.5%;
+    width: 20vw;
 }
 
 .side-image > img {
@@ -42,35 +42,43 @@ hr{
 }
 
 .right-sidebar{
-    width: 26.5%;
+    width: 20vw;
     background-color: #b3987f;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-sidebar > iframe {
     width: 100%;
-    height: 50%;
+    height: 80vw;
     padding: 16% 0 0 0;
 }
 
-
-.right-sidebar > img {
+.buttons > img {
     margin: 5% 0 0;
     padding: 0 25%;
 }
 
-.right-sidebar > h3 {
-    margin: 13% 0 13%;
-    padding: 0 20%;
-}
-
-.right-sidebar > a {
+.buttons > a > img {
+    margin: 5% 0 0;
     padding: 0 25%;
 }
+
+.buttons > h3 {
+    margin: 1vh 0 1vh;
+    padding: 0 2%;
+}
+
+.chat-box{
+    height: 100vh;
+}
+
 
 footer{
     text-align: center;
     font-size: 14px;
 }
+
 
 @media screen and (max-device-width: 812px) {
     .text {
