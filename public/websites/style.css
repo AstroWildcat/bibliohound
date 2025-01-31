@@ -44,12 +44,12 @@ h1 {
     }
 
     .image-links > a > img {
-        max-device-width: 75px;
+        max-width: 75px;
         height: auto;
     }
 
     .board{
-        max-device-width: 500px;
+        max-width: 500px;
     }
 
     .paper{
