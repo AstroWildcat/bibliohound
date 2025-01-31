@@ -31,25 +31,24 @@ hr {
 
 nav > iframe {
     width: 100%;
-    height: 550px;
+    height: 110vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .container{
     display: flex;
-}
-.sidebar{
-    width:25%;
+    width: 100vw;
 }
 
-.main-content{
-    width:75%;
+.sidebar{
+    width: 15vw;
 }
 
 .board{ 
     background-image: url(images/backgrounds/corkboard.jpg);
     border-radius: 5px;
-    width: 100%;
+    width: 83vw;
     height: 100%;
     margin: 0  0 0;
 }
