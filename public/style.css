@@ -72,11 +72,40 @@ footer{
     font-size: 14px;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 412px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 500px;
+        overflow-x: scroll;   
+        margin: 0 -31%;
+    }
+    
+    .image-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0 10px;
+    }
+
+    .image-links > a > img {
+        max-width: 75px;
+        height: auto;
+    }
+
+    .board{
+        max-width: 500px;
+    }
+
+    .paper{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
 
     .text {
         margin: 0 90px;
-        overflow-y: scroll;
     }
 
     .side-image{
