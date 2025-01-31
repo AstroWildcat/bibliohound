@@ -34,7 +34,7 @@ button{
     margin: 10px 40% 25px;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 812px) {
     .container {
         display: flex;
         flex-direction: column;
