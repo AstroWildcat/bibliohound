@@ -48,7 +48,7 @@
 }
 
 .info-grid>div {
-    width: 95%;
+    margin: 6vh 0 6vh 5vw;
 }
 
 .info-grid>div>h4 {
@@ -85,8 +85,8 @@
 
 .bottom-bar-info {
     background-color: white;
-    height: 290px;
-    width: 94.5%;
+    height: 100vh;
+    width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     padding: 10px 20px;
