@@ -3,9 +3,6 @@
 
 @media screen and (max-device-width: 812px) {
 
-    .info-grid {
-        padding: 0 50px;
-} 
     .info-grid > div {
         margin: 15px 0;
 } 
