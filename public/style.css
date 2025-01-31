@@ -80,17 +80,18 @@ footer{
 
     .text {
         margin: 0 90px;
+        overflow-y: scroll;
     }
 
     .side-image{
-        visibility: hidden;
+        display: none;
     }
 
     .left-sidebar{
-        visibility: hidden;
+        display: none;
     }
 
     .right-sidebar{
-        visibility: hidden;
+        display: none;
     }
 }

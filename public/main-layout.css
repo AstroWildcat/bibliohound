@@ -65,11 +65,13 @@ nav > iframe {
 
 @media only screen and (max-width: 412px) {
     .sidebar {
-        width: 500px;
-        overflow-x: scroll;   
-        margin: 0 -31%;
+        width: 100%;
+        overflow-x: scroll;  
+        overflow-y: hidden;
+        height: 110px;
+        margin: 0 -15% 0;
     }
-    
+
     .board{
         max-width: 500px;
     }
