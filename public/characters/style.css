@@ -43,3 +43,10 @@ button{
 footer{
     margin: 1% 0;
 }
+
+@media only screen and (max-width: 412px) {
+    .item > img{
+        width: 100px;
+        height: auto;
+    }
+}
