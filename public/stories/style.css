@@ -42,7 +42,7 @@ h2{
 }
 
 button{
-    margin: 10px 0;
+    margin: 10px 0 40px 0;
 }
 
 @media only screen and (max-device-width: 812px) {
