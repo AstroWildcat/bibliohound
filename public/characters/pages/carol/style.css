@@ -4,3 +4,13 @@
 .info-grid > div {
     margin: 60% -5px;
 } 
+
+@media screen and (max-device-width: 812px) {
+    
+       .info-grid {
+        padding: 25% 29%;
+} 
+    .info-grid > div {
+        margin: 15px 0;
+} 
+}
