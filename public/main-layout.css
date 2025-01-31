@@ -78,7 +78,7 @@ nav > iframe {
     }
 
     .board{
-        max-width: 129%;
+        width: 95vw;
     }
 
     .paper{
