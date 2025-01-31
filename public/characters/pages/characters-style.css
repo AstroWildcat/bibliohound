@@ -166,7 +166,7 @@
     }
 
     .bottom-bar-info > p {
-        background-size:100%;
+        text-wrap: wrap;
     } 
 
 }
