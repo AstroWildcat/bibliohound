@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 412px) {
     .sidebar {
-        width: 500px;
+        width: auto;
         overflow-x: scroll;   
         margin: 0 -31%;
     }
@@ -29,7 +29,7 @@
     .image-links {
         display: flex;
         flex-direction: row;
-        gap: 0 10px;
+        gap: 0 20px;
     }
 
     .image-links > a > img {
