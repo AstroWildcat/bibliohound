@@ -121,7 +121,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 5px;
-        width: 170%;
+        width: 175%;
         height: 25%;
         overflow-y: scroll;
     }
