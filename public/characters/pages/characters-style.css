@@ -6,24 +6,29 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    margin: 10px 25px;
-    height: 220px;
+    height: 100%;
     width: 100%;
+    margin: -5vh 0;
 }
 
 .icon {
     grid-area: 1 / 1 / 2 / 2;
+    margin: 7.5vh 2.5vw auto;
+    padding: 5vh 2vw;
 }
 
 .basic-info {
     grid-area: 1 / 2 / 2 / 4;
+     width: 55vw;
+     margin: 10vh -8vw;
 }
 
 .icon>img {
     transform: rotate(345deg);
-    height: 180px;
+    height: 140px;
     width: auto;
-    margin: 23px 10px auto;
+    padding: 0;
+    margin: 0;
 }
 
 .info-grid {
@@ -35,10 +40,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    margin: 10px -55px auto;
-    padding: 5px 0px 0px 60px;
-    height: 200px;
-    width: 90%;
+
 }
 
 .info-grid>div {
@@ -81,7 +83,7 @@
     background-color: white;
     height: 290px;
     width: 94.5%;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     padding: 10px 20px;
 }
@@ -125,7 +127,7 @@
         height: 25%;
         margin: 0 -55px;
         padding: 0 50px;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: hidden;
         column-gap: 15%;
     }
@@ -161,7 +163,7 @@
     .bottom-bar-info {
         margin: -6% 0;
         width: 90%;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: hidden;
         display: inline-block;
     }
