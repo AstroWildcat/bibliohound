@@ -33,7 +33,7 @@ hr{
 }
 
 .side-image{
-    width: 20vw;
+    width: 25vw;
 }
 
 .side-image > img {
@@ -55,13 +55,13 @@ hr{
 }
 
 .buttons > img {
-    margin: 5% 0 0;
-    padding: 0 25%;
+    margin: 1vh 0 0;
+    padding: 0 5.5vw;
 }
 
 .buttons > a > img {
-    margin: 5% 0 0;
-    padding: 0 25%;
+    margin: 1vh 0 0;
+    padding: 0 5.5vw 2vh;
 }
 
 .buttons > h3 {
@@ -69,8 +69,8 @@ hr{
     padding: 0 2%;
 }
 
-.chat-box{
-    height: 100vh;
+.chat-box > iframe{
+    height: 82.5vh;
 }
 
 
