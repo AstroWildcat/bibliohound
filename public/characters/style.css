@@ -44,7 +44,7 @@ footer{
     margin: 1% 0;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-device-width: 812px) {
     .item > img{
         width: 100px;
         height: auto;

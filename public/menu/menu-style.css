@@ -7,13 +7,13 @@
 }
 
 .image-links > a {
-    max-width: 50%;
+    max-device-width: 50%;
     max-height: auto;
     display: inline-block;
 }
 
 .image-links > a > img {
-    max-width: 100%;
+    max-device-width: 100%;
     max-height: auto;
     display: block;
 }
@@ -28,7 +28,7 @@
     }
     
     .image-links > a > img {
-        max-width: 75px;
+        max-device-width: 75px;
         height: auto;
     }
     }

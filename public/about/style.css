@@ -92,7 +92,7 @@ h5 {
     height: 30px;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-device-width: 812px) {
     .image-bar-left{
         display: none;
     }

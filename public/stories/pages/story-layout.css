@@ -32,7 +32,7 @@ h3 {
 }
 
 .side-image > img{
-    max-width: 100%;
+    max-device-width: 100%;
     height: 100%;
 }
 
@@ -72,7 +72,7 @@ h3 {
     margin: -4% 0;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-device-width: 812px) {
     .side-image{
         display: none;
     }

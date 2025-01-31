@@ -25,7 +25,7 @@ h1 {
     padding: 0 25px;
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-device-width: 812px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -44,12 +44,12 @@ h1 {
     }
 
     .image-links > a > img {
-        max-width: 75px;
+        max-device-width: 75px;
         height: auto;
     }
 
     .board{
-        max-width: 500px;
+        max-device-width: 500px;
     }
 
     .paper{
