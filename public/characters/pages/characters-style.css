@@ -165,4 +165,8 @@
         overflow-x: hidden;
     }
 
+    .bottom-bar-info > p {
+        width: 100%;
+    } 
+
 }
