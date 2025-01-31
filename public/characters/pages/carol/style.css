@@ -1,24 +1,29 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
-@import url(https://bibliohound.neocities.org/characters/pages/characters-style.css); 
+@import url(https://bibliohound.neocities.org/characters/pages/characters-style.css);
 
-.info-grid > div {
+.info-grid>div {
     margin: 60% -5px;
-} 
+}
 
 @media screen and (max-device-width: 812px) {
-    
-       .info-grid {
-        padding: 20% 29%;
-} 
-    .info-grid > div {
-        margin: 15px 0;
-} 
-    
+
+    .icon>img {
+        margin: 10px 50%
+    }
+
+    .info-grid {
+        padding: 15% 55px;
+    }
+
+    .info-grid>div {
+        margin: 15px 5px;
+    }
+
     hr {
         margin: 20% 0;
     }
-    
-    .bottom-bar-info{
+
+    .bottom-bar-info {
         margin: -17% 0;
     }
 }
