@@ -72,7 +72,7 @@ footer{
     font-size: 14px;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 320px) {
     .container {
         display: flex;
         flex-direction: column;
