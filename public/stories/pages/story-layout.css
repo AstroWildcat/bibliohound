@@ -93,4 +93,8 @@ h3 {
         width: 100%;
         height: auto;
     }
+
+    .caption{
+        height: 100px;
+    }
 }
