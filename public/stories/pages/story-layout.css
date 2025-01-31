@@ -83,11 +83,12 @@ h3 {
 
     .character{
         flex-direction: column;
-        gap: 50px 0;
+        margin: 10px 0;
+        height: 100%; 
     }
 
     .image {
-        width: 80%
+        width: 100%;
     }
     
     .image > img {
@@ -95,7 +96,4 @@ h3 {
         height: auto;
     }
 
-    .caption{
-        height: 100px;
-    }
 }
