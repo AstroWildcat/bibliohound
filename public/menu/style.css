@@ -18,3 +18,17 @@
     max-height: auto;
     display: block;
 }
+
+@media only screen and (max-width: 412px) {
+  
+.image-links {
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+}
+
+.image-links > a > img {
+    max-width: 75px;
+    height: auto;
+}
+}
