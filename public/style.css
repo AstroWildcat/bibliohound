@@ -74,7 +74,8 @@ footer{
 
 @media screen and (max-device-width: 812px) {
     .text {
-        margin: 0 90px;
+        margin: 0 25%;
+        width: 100%;
         overflow-y: scroll;
     }
 
