@@ -26,6 +26,8 @@ hr{
 
 .text{
     width: 60vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .text > p{
@@ -84,7 +86,7 @@ footer{
     .text {
         margin: 0 25%;
         width: 100%;
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
     .side-image{

@@ -81,7 +81,7 @@
     background-color: white;
     height: 290px;
     width: 94.5%;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     padding: 10px 20px;
 }
@@ -125,7 +125,7 @@
         height: 25%;
         margin: 0 -55px;
         padding: 0 50px;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         column-gap: 15%;
     }
@@ -161,7 +161,7 @@
     .bottom-bar-info {
         margin: -6% 0;
         width: 90%;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         display: inline-block;
     }

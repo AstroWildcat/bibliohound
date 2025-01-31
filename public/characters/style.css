@@ -11,7 +11,7 @@ h2{
 
 .paper{
     display: grid;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .grid{
