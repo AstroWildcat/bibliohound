@@ -1,9 +1,13 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 
-.header > h1 {
-    text-align: center;
-  }
+.header>h1 {
+  text-align: center;
+}
 
-  .list {
-    margin: 0 25vw
-  }
+.list {
+  margin: 0 25vw
+}
+
+footer>p {
+  text-align: center;
+}
