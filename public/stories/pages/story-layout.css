@@ -68,7 +68,7 @@ h3 {
     overflow-y: auto;
 }
 
-.caption > h5 {
+.caption > h2 {
     text-align: left;
     margin: -4% 0;
 }
