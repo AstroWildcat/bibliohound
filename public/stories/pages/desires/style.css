@@ -2,5 +2,10 @@
 @import url(https://bibliohound.neocities.org/stories/pages/story-layout.css);
 
 .caption{
-    margin: -4% 1%;
+    width: 35vw;
+    padding: 0 1em; 
+}
+
+.caption > h3 {
+    margin: 0.5em 0;
 }
