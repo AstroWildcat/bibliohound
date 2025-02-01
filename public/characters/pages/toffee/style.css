@@ -1,6 +1,16 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/characters/pages/characters-style.css); 
 
+.icon{
+    margin: 7.5vh 0 0 3vw;
+    padding: 5vh 0;
+}
+
+.icon>img {
+    height: 180px;
+    width: auto;
+}
+
 @media screen and (max-device-width: 812px) {
 
     .info-grid {
