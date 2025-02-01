@@ -1,2 +1,12 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/stories/pages/story-layout.css);
+
+.caption > h5 {
+    text-align: left;
+    margin: -3% 0;
+}
+
+.caption > p {
+    text-align: left;
+    margin: 7% 0;
+}
