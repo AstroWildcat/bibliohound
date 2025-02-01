@@ -2,15 +2,15 @@
 @import url(https://bibliohound.neocities.org/characters/pages/characters-style.css);
 
 .info-grid>div {
-    margin: 1vh 5vw;
+    margin: 2vh 5vw;
 }
 
 .info-grid>div>h4{
-    margin: 10vh 0;
+    margin: 7vh 0;
 }
 
 .info-grid>div>p{
-    margin: -10vh 0;
+    margin: -7vh 0;
 }
 
 @media screen and (max-device-width: 812px) {
