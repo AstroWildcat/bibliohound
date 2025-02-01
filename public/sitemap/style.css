@@ -3,3 +3,7 @@
 .header > h1 {
     text-align: center;
   }
+
+  .list {
+    margin: 0 25vw
+  }
