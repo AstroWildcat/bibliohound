@@ -1,2 +1,28 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/stories/pages/story-layout.css);
+
+h2 {
+    margin: 1em 1em 0.5em 1em
+  }
+  
+  .character  {
+      margin: 1.5% 0;
+  }
+  
+  .image {
+      width: 8em;
+  }
+  
+  .caption {
+    margin: 0 1%;
+  }
+  
+  .caption > h3{
+    margin: -0.75em 0;
+  }
+  
+  .caption > p{
+      width: 70%;
+    margin: 1.5em 0;
+      overflow-y: auto;
+  }
