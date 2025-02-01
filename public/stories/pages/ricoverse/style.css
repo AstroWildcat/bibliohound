@@ -1,2 +1,16 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/stories/pages/story-layout.css);
+
+
+.image {
+    width: 8.5em;
+}
+
+.caption {
+    width: 35vw;
+    padding: 0 1em;
+}
+
+.caption>h3 {
+    margin: 0.5em 0;
+}
