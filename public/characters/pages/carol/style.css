@@ -1,6 +1,10 @@
 @import url(https://bibliohound.neocities.org/main-layout.css);
 @import url(https://bibliohound.neocities.org/characters/pages/characters-style.css);
 
+.icon {
+    margin: 5vh 1vw 0;
+}
+
 .info-grid>div {
     margin: 1vh 5vw 7vh;
 }
