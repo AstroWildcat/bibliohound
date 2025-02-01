@@ -1,14 +1,15 @@
 h1{
-    font-size: 25px;
+    font-size: 1.75em;
     margin: 2% 3%;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
+    margin: 5vh 1.5vw 0;
 }
 
 h3 {
-    font-size: 13px;
+    font-size: 1em;
 }
 
 .paper {
@@ -16,19 +17,8 @@ h3 {
     overflow-y: hidden;
 }
 
-.text {
-    width: 60%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 550px;
-}
-
-.text > main > p{
-    padding: 0 4%;
-}
-
 .side-image{ 
-    width: 40%;
+    width: 30vw;
 }
 
 .side-image > img{
@@ -36,11 +26,22 @@ h3 {
     height: 100%;
 }
 
+.text {
+    width: 70vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.text > main > p{
+    padding: 0 2vw;
+}
+
 .grid {
     display: grid;
     grid-auto-columns: auto;
     gap: 0 10px;
-    padding: 0 10px;
+    padding: 0 1em;
 }
 
 .character  {
@@ -51,7 +52,7 @@ h3 {
 }
 
 .image {
-    width: 30%
+    width: 10em;
 }
 
 .image > img {
