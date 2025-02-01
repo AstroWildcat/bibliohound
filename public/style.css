@@ -29,9 +29,10 @@ hr{
     overflow-y: auto;
 }
 
-.sitemap > a{
+.sitemap > p{
     font-family: "Fredericka the Great";
-    font-size: 20px;
+    font-size: 1em;
+    margin: 0 0 0 0.75vw;
 }
 
 .text > p{
