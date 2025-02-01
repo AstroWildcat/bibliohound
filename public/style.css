@@ -84,8 +84,8 @@ hr{
     padding: 0 2%;
 }
 
-.chat-box > iframe{
-    height: 81.5vh;
+.chat-box {
+    height: 100%;
 }
 
 
