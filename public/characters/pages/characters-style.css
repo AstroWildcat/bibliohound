@@ -89,7 +89,20 @@
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 10px 20px;
+    padding: 4vh 0 0 0;
+}
+
+ .bottom-bar-info>p {
+        text-align: justify;
+        padding: 0 2.5vw;
+    }
+
+.bottom-bar-info > h3{
+    padding: 0 2.5vw;
+}
+
+.bottom-bar-info > ul{
+    padding: 0 2.5vw;
 }
 
 @media screen and (max-device-width: 812px) {
