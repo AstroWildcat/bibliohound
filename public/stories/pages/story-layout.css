@@ -12,7 +12,7 @@ h3 {
     font-size: 1em;
 }
 
-.paper {
+#paper {
     display: flex;
     overflow-y: hidden;
 }

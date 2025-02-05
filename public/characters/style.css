@@ -9,7 +9,7 @@ h2{
     text-align: center;
 }
 
-.paper{
+#paper{
     display: grid;
     overflow-y: auto;
 }

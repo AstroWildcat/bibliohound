@@ -48,11 +48,11 @@ h1 {
         height: auto;
     }
 
-    .board{
+    #board{
         max-width: 500px;
     }
 
-    .paper{
+    #paper{
         overflow-y: auto;
     }
 }

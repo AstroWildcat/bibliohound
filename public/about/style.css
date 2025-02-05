@@ -28,7 +28,7 @@ h5 {
     text-align: center;
 }
 
-.paper{
+#paper{
     display: flex;
     align-items: stretch;
 }

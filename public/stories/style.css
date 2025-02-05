@@ -10,7 +10,7 @@ h2{
     text-align: center;
 }
 
-.paper{
+#paper{
     overflow-y: auto;
     overflow-x: hidden;
 }

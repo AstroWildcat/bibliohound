@@ -18,7 +18,7 @@ hr{
     margin: 3% 0;
 }
 
-.paper {
+#paper {
     display: flex;
     overflow-y: hidden;
     overflow-x: hidden;

@@ -45,7 +45,7 @@ nav > iframe {
     width: 15vw;
 }
 
-.board{ 
+#board{ 
     background-image: url(images/backgrounds/corkboard.jpg);
     border-radius: 5px;
     width: 83vw;
@@ -53,7 +53,7 @@ nav > iframe {
     margin: 0;
 }
 
-.paper{
+.#paper{
     background-color: cornsilk;
     margin: 0 50px 50px;
     height: 100%;
@@ -76,11 +76,11 @@ nav > iframe {
         margin: 0 -30% 0;
     }
 
-    .board{
+    #board{
         width: 95vw;
     }
 
-    .paper{
+    #paper{
         overflow-y: auto;
         overflow-x: hidden;
     }
