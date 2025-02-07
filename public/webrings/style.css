@@ -19,3 +19,21 @@ p {
 #autiring {
     padding: 0 38%;
 }
+
+#oc-webring-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 12px;
+  }
+  #oc-webring-title {
+    font-weight: bold;
+  }
+  #oc-webring-controls {
+    display: flex;
+    gap: 1em;
+  }
