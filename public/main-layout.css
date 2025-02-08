@@ -29,14 +29,8 @@ hr {
     width: 100%; /* Ensure it spans the full width */
 }
 
-nav > iframe {
-    width: 100%;
-    height: 110vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 .menu-component {
+    display: inline-block;
     width: 100%;
     height: 110vh;
     overflow-y: auto;
